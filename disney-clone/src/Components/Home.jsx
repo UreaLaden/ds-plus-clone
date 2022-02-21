@@ -3,13 +3,19 @@ import styled from 'styled-components';
 import ImageSlider from './ImageSlider';
 import Recommends from './Recommends';
 import Viewers from './Viewers';
+import NewDisney from './NewDisney';
+import Originals from './Originals';
+import Trending from './Trending';
 
 const Home = (props) =>{
     return (
         <Container>        
             <ImageSlider />    
             <Viewers />     
-            <Recommends />  
+            <Recommends /> 
+            <NewDisney /> 
+            <Originals />
+            <Trending />
         </Container>
         )
 };
